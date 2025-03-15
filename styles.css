@@ -148,7 +148,7 @@ footer {
 .section-container2:hover {
             transform: translateY(-10px);
         }
-        .section-container2 h1 {
+.section-container2 h1 {
             color: #FFA07A;
             font-size: 32px;
             margin-bottom: 30px;
@@ -159,7 +159,7 @@ footer {
             width: 80%;
             margin: auto;
         }
-        .timeline {
+.timeline {
             position: relative;
             display: flex;
             justify-content: space-between;
@@ -167,7 +167,7 @@ footer {
             width: 100%;
             margin-top: 50px;
         }
-        .line {
+.line {
             position: absolute;
             top: 50%;
             left: 0;
@@ -176,13 +176,13 @@ footer {
             background-color: #9E8984;
             border-radius: 3px;
         }
-        .event {
+.event {
             position: relative;
             display: flex;
             flex-direction: column;
             align-items: center;
         }
-        .circle {
+.circle {
             width: 25px;
             height: 25px;
             background-color: #FDC3B7;
@@ -192,11 +192,11 @@ footer {
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
             transition: transform 0.3s ease;
         }
-        .circle:hover {
+.circle:hover {
             transform: scale(1.2);
             background-color: #E79685;
         }
-        .info {
+.info {
             display: none;
             position: absolute;
             top: -100px;
@@ -211,7 +211,7 @@ footer {
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             border-radius: 5px;
         }
-        .date {
+.date {
             margin-top: 12px;
             font-weight: bold;
             cursor: pointer;
@@ -219,8 +219,8 @@ footer {
             font-size: 16px;
         }
 
-        .circle:hover .info,
-        .date:hover + .info {
+.circle:hover .info,
+.date:hover + .info {
             display: block;
         }
 
@@ -249,19 +249,19 @@ footer {
             font-weight: bold;
             font-size: 18px;
         }
- .it-container {
+.it-container {
             width: 80%;
             margin: 0 auto;
             padding: 50px 0;
         }
 
-        .tabs {
+.tabs {
             display: flex;
             justify-content: center;
             margin-bottom: 20px;
         }
 
-        .tabs button {
+.tabs button {
             background-color: white;
             border: 1px solid #ddd;
             padding: 10px 20px;
@@ -271,12 +271,12 @@ footer {
             font-family: 'Poppins', sans-serif;
         }
 
-        .tabs button.active {
+.tabs button.active {
             background-color: #F9A97E;
             color: white;
         }
 
-        .card-container {
+.card-container {
             display: flex;
             overflow-x: scroll;
             gap: 20px;
@@ -288,7 +288,7 @@ footer {
             justify-content: center;
         }
 
-        .card {
+.card {
             width: 250px;
             height: 350px;
             background-color: #f1f1f1;
@@ -300,13 +300,13 @@ footer {
             transition: transform 0.3s ease-in-out;
         }
 
-        .card img {
+.card img {
             width: 100%;
             height: 100%;
             object-fit: cover;
         }
 
-        .card:hover {
+.card:hover {
             transform: scale(1.05);
         }
 
@@ -317,7 +317,7 @@ footer {
     gap: 20px;
     perspective: 1000px;
   }
-  .info1 {
+.info1 {
     width: 100%;
     padding-top: 100%; 
     position: relative;
@@ -325,10 +325,10 @@ footer {
     transition: transform 0.6s;
     cursor: pointer;
   }
-  .info1:hover {
+.info1:hover {
     transform: rotateY(180deg);
   }
-  .info1 .side {
+.info1 .side {
     position: absolute;
     top: 0;
     left: 0;
@@ -347,15 +347,15 @@ footer {
     box-sizing: border-box;
     overflow: hidden;
   }
-  .info1 .front {
+.info1 .front {
     background: #BAEBF7;
   }
-  .info1 .back {
+.info1 .back {
     background: #F7BAF2;
     transform: rotateY(180deg);
   }
 
-  .marker {
+.marker {
     color: #FFA07A;
     font-size: 18px;
     }
@@ -367,7 +367,7 @@ footer {
     justify-content: center;
     flex-wrap: wrap;
   }
-  .photo {
+.photo {
     width: 400px;
     max-width: 100%;
     border-radius: 20px;
@@ -375,74 +375,100 @@ footer {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     transition: transform 0.5s ease, box-shadow 0.5s ease;
   }
-  .photo img {
+.photo img {
     width: 100%;
     height: auto;
     object-fit: cover;
     transition: transform 0.5s ease;
   }
-  .photo:hover {
+.photo:hover {
     transform: scale(1.1);
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
   }
-  .photo:hover img {
+.photo:hover img {
     transform: scale(1.2);
    }
 
-  .study {
+.study {
     margin-top: 50px;
   }
 
-  .section {
+.section {
       margin-bottom: 50px;
     }
-    .description {
+.description {
       margin-bottom: 20px;
       font-size: 1.1em;
     }
 
-    .photo-grid {
+.photo-grid {
       display: grid;
       gap: 10px;
     }
 
-    .dance-photos {
+.dance-photos {
       grid-template-columns: repeat(4, 1fr);
       width: 100%;
     }
 
-    .sport-photos {
+.sport-photos {
       grid-template-columns: repeat(2, 1fr);
     }
 
-    .grades-photos {
+.grades-photos {
       grid-template-columns: repeat(3, 1fr);
     }
 
-    .photo-grid img {
+.photo-grid img {
       max-width: 100%;
       height: auto;
       border-radius: 10px;
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     }
 
-    @media (max-width: 768px) {
+@media (max-width: 768px) {
       .dance-photos { grid-template-columns: repeat(2, 1fr); }
       .sport-photos { grid-template-columns: 1fr; }
       .grades-photos { grid-template-columns: repeat(1, 1fr); }
     }
 
+.large-photo1{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            flex: 1 1 55%;
+            min-width: 250px;
+  }          
+.photo-grid-sport-photos{ 
+            grid-template-columns: repeat(2, 1fr); 
+            gap: 16px; 
+            max-width: 100%;
+            box-sizing: border-box;
+            object-fit: cover;
+            display:block;
+            flex: 1 1 55%;
+            min-width: 250px;
+}
+
 .large-photo { 
-width: 400px;
-  height: auto;
-  object-fit: cover;
-  display:block;
-  margin: 0 auto;         
-  padding: 5px;             
-  margin-left: 80px; 
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            margin: 0; 
+            box-sizing: border-box;
+            object-fit: cover;
+            display:block;
+            flex: 1 1 55%;
+            min-width: 250px;
+    }
+@media (max-width: 768px) {
+  .large-photo {
+    width: 100%; 
+    margin-right: 0;
+    }
     }
 
-    .kontakt-info {
+.kontakt-info {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -469,30 +495,30 @@ width: 400px;
     padding: 20px;
   }
 
-  .about-left, .about-right {
+.about-left, .about-right {
     padding: 10px;
   }
 
-  .about-right {
+.about-right {
     text-align: center;
   }
 
-  .timeline-container {
+.timeline-container {
     flex-direction: column;
     padding: 20px;
   }
 
-  .card-container {
+.card-container {
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  .info-container {
+.info-container {
     flex-direction: column;
     align-items: center;
   }
 
-  .info1 {
+.info1 {
     width: 90%;
   }
 
@@ -504,7 +530,7 @@ width: 400px;
     height: auto;
   }
 
-  .photo-grid {
+.photo-grid {
     display: grid;
     grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
     gap: 10px;
@@ -517,20 +543,20 @@ width: 400px;
     padding: 10px 0;
   }
 
-  .top-nav a {
+.top-nav a {
     margin: 5px 0;
     font-size: 18px;
   }
 
-  .about-right h1 {
+.about-right h1 {
     font-size: 28px;
   }
 
-  .card {
+.card {
     width: 100%;
   }
 
-  .section-container {
+.section-container {
     padding: 10px;
   }
 }
