@@ -434,7 +434,7 @@ footer {
 
 .photo-grid-sport-photos { 
 grid-template-columns: repeat(2, 1fr);
-  display: flex;                   
+  display: grid;                   
   justify-content: space-between;    
   gap: 16px;                        
   flex-wrap: wrap;
