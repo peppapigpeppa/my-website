@@ -432,25 +432,20 @@ footer {
       .grades-photos { grid-template-columns: repeat(1, 1fr); }
     }
 
-.large-photo{
-    width: 100%;
-    max-width: 350px;  
-    height: auto;
-    margin: 0;
-    box-sizing: border-box;
-    object-fit: cover;
-    display:block;
-    flex: 1 1 45%; 
-    min-width: 200px; 
+.photo-grid-sport-photos { 
+  display: grid;             
+  grid-template-columns: repeat(2, 1fr);  
+  gap: 16px;                 
+  max-width: 100%;          
+  box-sizing: border-box;   
 }
 
-.photo-grid-sport-photos{ 
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
-    max-width: 100%;
-    box-sizing: border-box;
-    object-fit: cover;
+.large-photo { 
+  width: 100%;        
+  height: auto;            
+  max-width: 100%;         
+  object-fit: cover;       
+  box-sizing: border-box;   
 }
 @media (max-width: 768px) {
   .large-photo {
