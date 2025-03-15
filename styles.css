@@ -434,7 +434,7 @@ footer {
 
 .photo-grid-sport-photos { 
             display:grid;
-            grid-template-columns:repeat(2,1fr);
+            grid-template-columns:2fr 1fr;
             gap:16px;
             max-width:100%;
 }
@@ -447,7 +447,7 @@ footer {
 }
 @media (max-width: 768px) {
   .photo-grid-sport-photos {
-grid-template-columns:repeat(2,1fr);
+grid-template-columns:1fr;
     }
     }
 
