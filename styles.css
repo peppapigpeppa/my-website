@@ -433,19 +433,18 @@ footer {
     }
 
 .photo-grid-sport-photos { 
-  display: grid;             
-  grid-template-columns: repeat(2, 1fr);  
-  gap: 16px;                 
-  max-width: 100%;          
-  box-sizing: border-box;   
+  display: flex;                    /* Используем flexbox */
+  justify-content: space-between;    /* Равномерное распределение */
+  gap: 16px;                         /* Промежуток между изображениями */
+  flex-wrap: wrap;                   /* Позволяет изображениям переноситься */
 }
 
+/* Стиль для фотографий */
 .large-photo { 
-  width: 100%;        
-  height: auto;            
-  max-width: 100%;         
-  object-fit: cover;       
-  box-sizing: border-box;   
+  width: 48%;               /* Ширина каждой фотографии - 48% (позволяет двум фотографиям помещаться в строке) */
+  height: auto;             /* Автоматическая высота, чтобы сохранить пропорции */
+  object-fit: cover;        /* Заполнение контейнера без искажения */
+  box-sizing: border-box;   /* Учет padding и border в ширину */
 }
 @media (max-width: 768px) {
   .large-photo {
